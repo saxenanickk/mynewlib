@@ -3,7 +3,7 @@ react_native_version = '0.63.2'
 
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.description      = 'MyNewLib Description'
   s.summary          = 'MyNewLib Summary'
   s.homepage         = 'https://github.com/saxenanickk/MyNewLib'
