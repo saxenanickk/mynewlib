@@ -1,15 +1,9 @@
 def react_native_deps
-    # React Native PODS
-    # The prefix to the mutualfund
+    # React Native dependencies
     prefix = "#{File.dirname(__FILE__)}/dependencies"
 
-    puts "#{File.dirname(__FILE__)}".inspect
-  
     # Path to the mutualFund react-native
     prefix_rn = "#{prefix}/react-native"
-  
-    # # The prefix to the root of the FEPlatform
-    root_prefix = "#{File.dirname(__FILE__)}/dependencies"
   
     # # The Pods which should be included in all projects
     pod 'FBLazyVector', :path => "#{prefix_rn}/Libraries/FBLazyVector"
@@ -37,24 +31,25 @@ def react_native_deps
     pod 'ReactCommon/turbomodule/core', :path => "#{prefix_rn}/ReactCommon"
     pod 'Yoga', :path => "#{prefix_rn}/ReactCommon/yoga", :modular_headers => true
   
-    pod 'react-native-cookies', :path => "#{root_prefix}/@react-native-community/cookies"
-    pod 'RNReanimated', :path => "#{root_prefix}/react-native-reanimated"
-    pod 'RNGestureHandler', :path => "#{root_prefix}/react-native-gesture-handler"
+    pod 'react-native-cookies', :path => "#{prefix}/@react-native-community/cookies"
+    pod 'RNReanimated', :path => "#{prefix}/react-native-reanimated"
+    pod 'RNGestureHandler', :path => "#{prefix}/react-native-gesture-handler"
     pod 'react-native-webview', :path => "#{prefix}/react-native-webview"
-    pod 'RNScreens', :path => "#{root_prefix}/react-native-screens"
-    pod 'rn-fetch-blob', :path => "#{root_prefix}/rn-fetch-blob"
-    pod 'RNCMaskedView', :path => "#{root_prefix}/@react-native-community/masked-view"
-    pod 'react-native-safe-area-context', :path => "#{root_prefix}/react-native-safe-area-context"
-    pod 'BVLinearGradient', :path => "#{root_prefix}/react-native-linear-gradient"
+    pod 'RNScreens', :path => "#{prefix}/react-native-screens"
+    pod 'rn-fetch-blob', :path => "#{prefix}/rn-fetch-blob"
+    pod 'RNCMaskedView', :path => "#{prefix}/@react-native-community/masked-view"
+    pod 'react-native-safe-area-context', :path => "#{prefix}/react-native-safe-area-context"
+    pod 'BVLinearGradient', :path => "#{prefix}/react-native-linear-gradient"
     pod 'react-native-slider', :path => "#{prefix}/@react-native-community/slider"
-    pod 'react-native-camera', :path => "#{root_prefix}/react-native-camera"
+    pod 'react-native-camera', :path => "#{prefix}/react-native-camera"
     pod 'react-native-image-editor', :path => "#{prefix}/@react-native-community/image-editor"
-    pod 'react-native-document-picker', :path => "#{root_prefix}/react-native-document-picker"
-    pod 'RNFS', :path => "#{root_prefix}/react-native-fs"
-    pod 'RNSVG', :path => "#{root_prefix}/react-native-svg"
-    pod 'react-native-video', :path => "#{root_prefix}/react-native-video"
+    pod 'react-native-document-picker', :path => "#{prefix}/react-native-document-picker"
+    pod 'RNFS', :path => "#{prefix}/react-native-fs"
+    pod 'RNSVG', :path => "#{prefix}/react-native-svg"
+    pod 'react-native-video', :path => "#{prefix}/react-native-video"
   
     pod 'DoubleConversion', :podspec => "#{prefix_rn}/third-party-podspecs/DoubleConversion.podspec"
     pod 'glog', :podspec => "#{prefix_rn}/third-party-podspecs/glog.podspec"
     pod 'Folly', :podspec => "#{prefix_rn}/third-party-podspecs/Folly.podspec"
+    pod 'boost-for-react-native', :podspec => "#{prefix}/boost-for-react-native"
   end
