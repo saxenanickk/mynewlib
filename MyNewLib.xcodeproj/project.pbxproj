@@ -7,8 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15FC11E851D4C151E99AD243 /* Pods_MyNewLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26F18A86988CBF237052AEF /* Pods_MyNewLib.framework */; };
 		930890592553DBBE00DCA280 /* MyNewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 930890572553DBBE00DCA280 /* MyNewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F68DE11BB28DC3B319CC6020 /* Pods_MyNewLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5768661D93E524D8A48BB96F /* Pods_MyNewLib.framework */; platformFilter = ios; };
+		9308EA472555745200DCA280 /* HSBC_Mutual_Fund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA062555745100DCA280 /* HSBC_Mutual_Fund.jpg */; };
+		9308EA482555745200DCA280 /* Baroda_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA072555745100DCA280 /* Baroda_Mutual_Fund.png */; };
+		9308EA492555745200DCA280 /* DSP_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA082555745100DCA280 /* DSP_Mutual_Fund.png */; };
+		9308EA4A2555745200DCA280 /* Taurus_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA092555745100DCA280 /* Taurus_Mutual_Fund.png */; };
+		9308EA4B2555745200DCA280 /* IDFC_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0A2555745100DCA280 /* IDFC_Mutual_Fund.png */; };
+		9308EA4C2555745200DCA280 /* Mirae_Asset_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0B2555745100DCA280 /* Mirae_Asset_Mutual_Fund.png */; };
+		9308EA4D2555745200DCA280 /* SBI_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0C2555745100DCA280 /* SBI_Mutual_Fund.png */; };
+		9308EA4E2555745200DCA280 /* Motilal_Oswal_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0D2555745100DCA280 /* Motilal_Oswal_Mutual_Fund.png */; };
+		9308EA4F2555745200DCA280 /* Quantum_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0E2555745100DCA280 /* Quantum_Mutual_Fund.png */; };
+		9308EA502555745200DCA280 /* Nippon_India_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA0F2555745100DCA280 /* Nippon_India_Mutual_Fund.png */; };
+		9308EA512555745200DCA280 /* ICICI_Prudential_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA102555745100DCA280 /* ICICI_Prudential_Mutual_Fund.png */; };
+		9308EA522555745200DCA280 /* BOI_AXA_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA112555745200DCA280 /* BOI_AXA_Mutual_Fund.png */; };
+		9308EA532555745200DCA280 /* PGIM_India_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA122555745200DCA280 /* PGIM_India_Mutual_Fund.png */; };
+		9308EA542555745200DCA280 /* Principal_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA132555745200DCA280 /* Principal_Mutual_Fund.png */; };
+		9308EA552555745200DCA280 /* Indiabulls_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA142555745200DCA280 /* Indiabulls_Mutual_Fund.png */; };
+		9308EA562555745200DCA280 /* L&T_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA152555745200DCA280 /* L&T_Mutual_Fund.png */; };
+		9308EA572555745200DCA280 /* Canara_Robeco_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA162555745200DCA280 /* Canara_Robeco_Mutual_Fund.png */; };
+		9308EA582555745200DCA280 /* Edelweiss_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA172555745200DCA280 /* Edelweiss_Mutual_Fund.png */; };
+		9308EA592555745200DCA280 /* PPFAS_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA182555745200DCA280 /* PPFAS_Mutual_Fund.png */; };
+		9308EA5A2555745200DCA280 /* Aditya_Birla_Sun_Life_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA192555745200DCA280 /* Aditya_Birla_Sun_Life_Mutual_Fund.png */; };
+		9308EA5B2555745200DCA280 /* quant_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1A2555745200DCA280 /* quant_Mutual_Fund.png */; };
+		9308EA5C2555745200DCA280 /* Tata_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1B2555745200DCA280 /* Tata_Mutual_Fund.png */; };
+		9308EA5D2555745200DCA280 /* Invesco_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1C2555745200DCA280 /* Invesco_Mutual_Fund.png */; };
+		9308EA5E2555745200DCA280 /* UTI_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1D2555745200DCA280 /* UTI_Mutual_Fund.png */; };
+		9308EA5F2555745200DCA280 /* HDFC_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1E2555745200DCA280 /* HDFC_Mutual_Fund.png */; };
+		9308EA602555745200DCA280 /* Mahindra_Manulife_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA1F2555745200DCA280 /* Mahindra_Manulife_Mutual_Fund.png */; };
+		9308EA612555745200DCA280 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA202555745200DCA280 /* default.png */; };
+		9308EA622555745200DCA280 /* Sundaram_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA212555745200DCA280 /* Sundaram_Mutual_Fund.png */; };
+		9308EA632555745200DCA280 /* Bank_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA222555745200DCA280 /* Bank_Placeholder.png */; };
+		9308EA642555745200DCA280 /* IDBI_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA232555745200DCA280 /* IDBI_Mutual_Fund.png */; };
+		9308EA652555745200DCA280 /* Kotak_Mahindra_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA242555745200DCA280 /* Kotak_Mahindra_Mutual_Fund.png */; };
+		9308EA662555745200DCA280 /* Axis_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA252555745200DCA280 /* Axis_Mutual_Fund.png */; };
+		9308EA672555745200DCA280 /* LIC_Mutual_Fund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA262555745200DCA280 /* LIC_Mutual_Fund.jpg */; };
+		9308EA682555745200DCA280 /* Union_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA272555745200DCA280 /* Union_Mutual_Fund.png */; };
+		9308EA692555745200DCA280 /* BNP_Paribas_Mutual_Fund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA282555745200DCA280 /* BNP_Paribas_Mutual_Fund.jpg */; };
+		9308EA6A2555745200DCA280 /* IIFL_Mutual_Fund.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA292555745200DCA280 /* IIFL_Mutual_Fund.png */; };
+		9308EA6B2555745200DCA280 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA2A2555745200DCA280 /* app.json */; };
+		9308EA6C2555745200DCA280 /* default-syntax.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA2E2555745200DCA280 /* default-syntax.json */; };
+		9308EA6D2555745200DCA280 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA302555745200DCA280 /* colors.json */; };
+		9308EA6E2555745200DCA280 /* foreignNames.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA322555745200DCA280 /* foreignNames.json */; };
+		9308EA6F2555745200DCA280 /* xml.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA372555745200DCA280 /* xml.json */; };
+		9308EA702555745200DCA280 /* decode.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA382555745200DCA280 /* decode.json */; };
+		9308EA712555745200DCA280 /* entities.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA392555745200DCA280 /* entities.json */; };
+		9308EA722555745200DCA280 /* legacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA3A2555745200DCA280 /* legacy.json */; };
+		9308EA732555745200DCA280 /* back-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA402555745200DCA280 /* back-icon@3x.png */; };
+		9308EA742555745200DCA280 /* back-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA412555745200DCA280 /* back-icon@2x.png */; };
+		9308EA752555745200DCA280 /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA422555745200DCA280 /* back-icon.png */; };
+		9308EA762555745200DCA280 /* back-icon-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA432555745200DCA280 /* back-icon-mask.png */; };
+		9308EA772555745200DCA280 /* procedure.json in Resources */ = {isa = PBXBuildFile; fileRef = 9308EA462555745200DCA280 /* procedure.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,7 +281,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5768661D93E524D8A48BB96F /* Pods_MyNewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyNewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CE5E44A650FE9E13C4E4B8 /* Pods-MyNewLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewLib.debug.xcconfig"; path = "Target Support Files/Pods-MyNewLib/Pods-MyNewLib.debug.xcconfig"; sourceTree = "<group>"; };
 		930890542553DBBE00DCA280 /* MyNewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyNewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		930890572553DBBE00DCA280 /* MyNewLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNewLib.h; sourceTree = "<group>"; };
 		930890582553DBBE00DCA280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -5207,8 +5256,57 @@
 		9308A81C2553DDCE00DCA280 /* Gestures.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Gestures.js; sourceTree = "<group>"; };
 		9308A81D2553DDCE00DCA280 /* GestureButtons.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GestureButtons.js; sourceTree = "<group>"; };
 		9308BB682553DFEB00DCA280 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		AFE39A858164D8A67AA4BCB7 /* Pods-MyNewLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewLib.release.xcconfig"; path = "Target Support Files/Pods-MyNewLib/Pods-MyNewLib.release.xcconfig"; sourceTree = "<group>"; };
-		F614C6C29AF4DC2C4A83652B /* Pods-MyNewLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewLib.debug.xcconfig"; path = "Target Support Files/Pods-MyNewLib/Pods-MyNewLib.debug.xcconfig"; sourceTree = "<group>"; };
+		9308EA062555745100DCA280 /* HSBC_Mutual_Fund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HSBC_Mutual_Fund.jpg; sourceTree = "<group>"; };
+		9308EA072555745100DCA280 /* Baroda_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baroda_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA082555745100DCA280 /* DSP_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSP_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA092555745100DCA280 /* Taurus_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taurus_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0A2555745100DCA280 /* IDFC_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDFC_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0B2555745100DCA280 /* Mirae_Asset_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirae_Asset_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0C2555745100DCA280 /* SBI_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SBI_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0D2555745100DCA280 /* Motilal_Oswal_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Motilal_Oswal_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0E2555745100DCA280 /* Quantum_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quantum_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA0F2555745100DCA280 /* Nippon_India_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nippon_India_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA102555745100DCA280 /* ICICI_Prudential_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICICI_Prudential_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA112555745200DCA280 /* BOI_AXA_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BOI_AXA_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA122555745200DCA280 /* PGIM_India_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PGIM_India_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA132555745200DCA280 /* Principal_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Principal_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA142555745200DCA280 /* Indiabulls_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indiabulls_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA152555745200DCA280 /* L&T_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "L&T_Mutual_Fund.png"; sourceTree = "<group>"; };
+		9308EA162555745200DCA280 /* Canara_Robeco_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canara_Robeco_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA172555745200DCA280 /* Edelweiss_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Edelweiss_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA182555745200DCA280 /* PPFAS_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PPFAS_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA192555745200DCA280 /* Aditya_Birla_Sun_Life_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aditya_Birla_Sun_Life_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1A2555745200DCA280 /* quant_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quant_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1B2555745200DCA280 /* Tata_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tata_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1C2555745200DCA280 /* Invesco_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Invesco_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1D2555745200DCA280 /* UTI_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UTI_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1E2555745200DCA280 /* HDFC_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HDFC_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA1F2555745200DCA280 /* Mahindra_Manulife_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mahindra_Manulife_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA202555745200DCA280 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		9308EA212555745200DCA280 /* Sundaram_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sundaram_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA222555745200DCA280 /* Bank_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bank_Placeholder.png; sourceTree = "<group>"; };
+		9308EA232555745200DCA280 /* IDBI_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IDBI_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA242555745200DCA280 /* Kotak_Mahindra_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kotak_Mahindra_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA252555745200DCA280 /* Axis_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Axis_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA262555745200DCA280 /* LIC_Mutual_Fund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LIC_Mutual_Fund.jpg; sourceTree = "<group>"; };
+		9308EA272555745200DCA280 /* Union_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Union_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA282555745200DCA280 /* BNP_Paribas_Mutual_Fund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BNP_Paribas_Mutual_Fund.jpg; sourceTree = "<group>"; };
+		9308EA292555745200DCA280 /* IIFL_Mutual_Fund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IIFL_Mutual_Fund.png; sourceTree = "<group>"; };
+		9308EA2A2555745200DCA280 /* app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		9308EA2E2555745200DCA280 /* default-syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "default-syntax.json"; sourceTree = "<group>"; };
+		9308EA302555745200DCA280 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		9308EA322555745200DCA280 /* foreignNames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foreignNames.json; sourceTree = "<group>"; };
+		9308EA372555745200DCA280 /* xml.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = xml.json; sourceTree = "<group>"; };
+		9308EA382555745200DCA280 /* decode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = decode.json; sourceTree = "<group>"; };
+		9308EA392555745200DCA280 /* entities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = entities.json; sourceTree = "<group>"; };
+		9308EA3A2555745200DCA280 /* legacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = legacy.json; sourceTree = "<group>"; };
+		9308EA402555745200DCA280 /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
+		9308EA412555745200DCA280 /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
+		9308EA422555745200DCA280 /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
+		9308EA432555745200DCA280 /* back-icon-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon-mask.png"; sourceTree = "<group>"; };
+		9308EA462555745200DCA280 /* procedure.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = procedure.json; sourceTree = "<group>"; };
+		D26F18A86988CBF237052AEF /* Pods_MyNewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyNewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA7CF48D11483A6FB81C755 /* Pods-MyNewLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNewLib.release.xcconfig"; path = "Target Support Files/Pods-MyNewLib/Pods-MyNewLib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -5216,7 +5314,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68DE11BB28DC3B319CC6020 /* Pods_MyNewLib.framework in Frameworks */,
+				15FC11E851D4C151E99AD243 /* Pods_MyNewLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5226,8 +5324,8 @@
 		077A35174376F17C8C405BA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F614C6C29AF4DC2C4A83652B /* Pods-MyNewLib.debug.xcconfig */,
-				AFE39A858164D8A67AA4BCB7 /* Pods-MyNewLib.release.xcconfig */,
+				59CE5E44A650FE9E13C4E4B8 /* Pods-MyNewLib.debug.xcconfig */,
+				FBA7CF48D11483A6FB81C755 /* Pods-MyNewLib.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -5239,7 +5337,7 @@
 				930890562553DBBE00DCA280 /* MyNewLib */,
 				930890552553DBBE00DCA280 /* Products */,
 				077A35174376F17C8C405BA6 /* Pods */,
-				9D34497C32DAD16B59CCC77F /* Frameworks */,
+				DDF964723C06C578451BE08A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -5264,6 +5362,7 @@
 		930890632553DCD400DCA280 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9308EA022555745100DCA280 /* assets */,
 				9308BB682553DFEB00DCA280 /* main.jsbundle */,
 				930890662553DDBE00DCA280 /* dependencies */,
 				930890642553DCF100DCA280 /* ReactNativeDeps.rb */,
@@ -18866,10 +18965,218 @@
 			path = modal;
 			sourceTree = "<group>";
 		};
-		9D34497C32DAD16B59CCC77F /* Frameworks */ = {
+		9308EA022555745100DCA280 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				5768661D93E524D8A48BB96F /* Pods_MyNewLib.framework */,
+				9308EA032555745100DCA280 /* app */,
+				9308EA2A2555745200DCA280 /* app.json */,
+				9308EA2B2555745200DCA280 /* ___node_modules */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9308EA032555745100DCA280 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA042555745100DCA280 /* assets */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		9308EA042555745100DCA280 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA052555745100DCA280 /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9308EA052555745100DCA280 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA062555745100DCA280 /* HSBC_Mutual_Fund.jpg */,
+				9308EA072555745100DCA280 /* Baroda_Mutual_Fund.png */,
+				9308EA082555745100DCA280 /* DSP_Mutual_Fund.png */,
+				9308EA092555745100DCA280 /* Taurus_Mutual_Fund.png */,
+				9308EA0A2555745100DCA280 /* IDFC_Mutual_Fund.png */,
+				9308EA0B2555745100DCA280 /* Mirae_Asset_Mutual_Fund.png */,
+				9308EA0C2555745100DCA280 /* SBI_Mutual_Fund.png */,
+				9308EA0D2555745100DCA280 /* Motilal_Oswal_Mutual_Fund.png */,
+				9308EA0E2555745100DCA280 /* Quantum_Mutual_Fund.png */,
+				9308EA0F2555745100DCA280 /* Nippon_India_Mutual_Fund.png */,
+				9308EA102555745100DCA280 /* ICICI_Prudential_Mutual_Fund.png */,
+				9308EA112555745200DCA280 /* BOI_AXA_Mutual_Fund.png */,
+				9308EA122555745200DCA280 /* PGIM_India_Mutual_Fund.png */,
+				9308EA132555745200DCA280 /* Principal_Mutual_Fund.png */,
+				9308EA142555745200DCA280 /* Indiabulls_Mutual_Fund.png */,
+				9308EA152555745200DCA280 /* L&T_Mutual_Fund.png */,
+				9308EA162555745200DCA280 /* Canara_Robeco_Mutual_Fund.png */,
+				9308EA172555745200DCA280 /* Edelweiss_Mutual_Fund.png */,
+				9308EA182555745200DCA280 /* PPFAS_Mutual_Fund.png */,
+				9308EA192555745200DCA280 /* Aditya_Birla_Sun_Life_Mutual_Fund.png */,
+				9308EA1A2555745200DCA280 /* quant_Mutual_Fund.png */,
+				9308EA1B2555745200DCA280 /* Tata_Mutual_Fund.png */,
+				9308EA1C2555745200DCA280 /* Invesco_Mutual_Fund.png */,
+				9308EA1D2555745200DCA280 /* UTI_Mutual_Fund.png */,
+				9308EA1E2555745200DCA280 /* HDFC_Mutual_Fund.png */,
+				9308EA1F2555745200DCA280 /* Mahindra_Manulife_Mutual_Fund.png */,
+				9308EA202555745200DCA280 /* default.png */,
+				9308EA212555745200DCA280 /* Sundaram_Mutual_Fund.png */,
+				9308EA222555745200DCA280 /* Bank_Placeholder.png */,
+				9308EA232555745200DCA280 /* IDBI_Mutual_Fund.png */,
+				9308EA242555745200DCA280 /* Kotak_Mahindra_Mutual_Fund.png */,
+				9308EA252555745200DCA280 /* Axis_Mutual_Fund.png */,
+				9308EA262555745200DCA280 /* LIC_Mutual_Fund.jpg */,
+				9308EA272555745200DCA280 /* Union_Mutual_Fund.png */,
+				9308EA282555745200DCA280 /* BNP_Paribas_Mutual_Fund.jpg */,
+				9308EA292555745200DCA280 /* IIFL_Mutual_Fund.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9308EA2B2555745200DCA280 /* ___node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA2C2555745200DCA280 /* css-tree */,
+				9308EA2F2555745200DCA280 /* css-color-keywords */,
+				9308EA312555745200DCA280 /* dom-serializer */,
+				9308EA3B2555745200DCA280 /* @react-navigation */,
+				9308EA442555745200DCA280 /* css-select */,
+			);
+			path = "___node_modules";
+			sourceTree = "<group>";
+		};
+		9308EA2C2555745200DCA280 /* css-tree */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA2D2555745200DCA280 /* dist */,
+			);
+			path = "css-tree";
+			sourceTree = "<group>";
+		};
+		9308EA2D2555745200DCA280 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA2E2555745200DCA280 /* default-syntax.json */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		9308EA2F2555745200DCA280 /* css-color-keywords */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA302555745200DCA280 /* colors.json */,
+			);
+			path = "css-color-keywords";
+			sourceTree = "<group>";
+		};
+		9308EA312555745200DCA280 /* dom-serializer */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA322555745200DCA280 /* foreignNames.json */,
+				9308EA332555745200DCA280 /* node_modules */,
+			);
+			path = "dom-serializer";
+			sourceTree = "<group>";
+		};
+		9308EA332555745200DCA280 /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA342555745200DCA280 /* entities */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		9308EA342555745200DCA280 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA352555745200DCA280 /* lib */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		9308EA352555745200DCA280 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA362555745200DCA280 /* maps */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9308EA362555745200DCA280 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA372555745200DCA280 /* xml.json */,
+				9308EA382555745200DCA280 /* decode.json */,
+				9308EA392555745200DCA280 /* entities.json */,
+				9308EA3A2555745200DCA280 /* legacy.json */,
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		9308EA3B2555745200DCA280 /* @react-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA3C2555745200DCA280 /* stack */,
+			);
+			path = "@react-navigation";
+			sourceTree = "<group>";
+		};
+		9308EA3C2555745200DCA280 /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA3D2555745200DCA280 /* src */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
+		9308EA3D2555745200DCA280 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA3E2555745200DCA280 /* views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9308EA3E2555745200DCA280 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA3F2555745200DCA280 /* assets */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9308EA3F2555745200DCA280 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA402555745200DCA280 /* back-icon@3x.png */,
+				9308EA412555745200DCA280 /* back-icon@2x.png */,
+				9308EA422555745200DCA280 /* back-icon.png */,
+				9308EA432555745200DCA280 /* back-icon-mask.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		9308EA442555745200DCA280 /* css-select */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA452555745200DCA280 /* lib */,
+			);
+			path = "css-select";
+			sourceTree = "<group>";
+		};
+		9308EA452555745200DCA280 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9308EA462555745200DCA280 /* procedure.json */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DDF964723C06C578451BE08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26F18A86988CBF237052AEF /* Pods_MyNewLib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -18892,10 +19199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9308905C2553DBBE00DCA280 /* Build configuration list for PBXNativeTarget "MyNewLib" */;
 			buildPhases = (
-				1334FF9808C623586D872BAF /* [CP] Check Pods Manifest.lock */,
+				F08C5880EC0C6032EF196C0E /* [CP] Check Pods Manifest.lock */,
 				9308904F2553DBBE00DCA280 /* Headers */,
 				930890502553DBBE00DCA280 /* Sources */,
 				930890512553DBBE00DCA280 /* Frameworks */,
+				9308EA01255573FE00DCA280 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -19236,8 +19544,67 @@
 		};
 /* End PBXReferenceProxy section */
 
+/* Begin PBXResourcesBuildPhase section */
+		9308EA01255573FE00DCA280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9308EA5A2555745200DCA280 /* Aditya_Birla_Sun_Life_Mutual_Fund.png in Resources */,
+				9308EA672555745200DCA280 /* LIC_Mutual_Fund.jpg in Resources */,
+				9308EA4D2555745200DCA280 /* SBI_Mutual_Fund.png in Resources */,
+				9308EA572555745200DCA280 /* Canara_Robeco_Mutual_Fund.png in Resources */,
+				9308EA512555745200DCA280 /* ICICI_Prudential_Mutual_Fund.png in Resources */,
+				9308EA4B2555745200DCA280 /* IDFC_Mutual_Fund.png in Resources */,
+				9308EA4E2555745200DCA280 /* Motilal_Oswal_Mutual_Fund.png in Resources */,
+				9308EA4A2555745200DCA280 /* Taurus_Mutual_Fund.png in Resources */,
+				9308EA502555745200DCA280 /* Nippon_India_Mutual_Fund.png in Resources */,
+				9308EA5C2555745200DCA280 /* Tata_Mutual_Fund.png in Resources */,
+				9308EA5F2555745200DCA280 /* HDFC_Mutual_Fund.png in Resources */,
+				9308EA532555745200DCA280 /* PGIM_India_Mutual_Fund.png in Resources */,
+				9308EA712555745200DCA280 /* entities.json in Resources */,
+				9308EA6D2555745200DCA280 /* colors.json in Resources */,
+				9308EA582555745200DCA280 /* Edelweiss_Mutual_Fund.png in Resources */,
+				9308EA5E2555745200DCA280 /* UTI_Mutual_Fund.png in Resources */,
+				9308EA542555745200DCA280 /* Principal_Mutual_Fund.png in Resources */,
+				9308EA772555745200DCA280 /* procedure.json in Resources */,
+				9308EA4C2555745200DCA280 /* Mirae_Asset_Mutual_Fund.png in Resources */,
+				9308EA702555745200DCA280 /* decode.json in Resources */,
+				9308EA472555745200DCA280 /* HSBC_Mutual_Fund.jpg in Resources */,
+				9308EA522555745200DCA280 /* BOI_AXA_Mutual_Fund.png in Resources */,
+				9308EA6C2555745200DCA280 /* default-syntax.json in Resources */,
+				9308EA6A2555745200DCA280 /* IIFL_Mutual_Fund.png in Resources */,
+				9308EA6B2555745200DCA280 /* app.json in Resources */,
+				9308EA682555745200DCA280 /* Union_Mutual_Fund.png in Resources */,
+				9308EA6E2555745200DCA280 /* foreignNames.json in Resources */,
+				9308EA5D2555745200DCA280 /* Invesco_Mutual_Fund.png in Resources */,
+				9308EA4F2555745200DCA280 /* Quantum_Mutual_Fund.png in Resources */,
+				9308EA592555745200DCA280 /* PPFAS_Mutual_Fund.png in Resources */,
+				9308EA732555745200DCA280 /* back-icon@3x.png in Resources */,
+				9308EA6F2555745200DCA280 /* xml.json in Resources */,
+				9308EA482555745200DCA280 /* Baroda_Mutual_Fund.png in Resources */,
+				9308EA622555745200DCA280 /* Sundaram_Mutual_Fund.png in Resources */,
+				9308EA722555745200DCA280 /* legacy.json in Resources */,
+				9308EA642555745200DCA280 /* IDBI_Mutual_Fund.png in Resources */,
+				9308EA632555745200DCA280 /* Bank_Placeholder.png in Resources */,
+				9308EA742555745200DCA280 /* back-icon@2x.png in Resources */,
+				9308EA762555745200DCA280 /* back-icon-mask.png in Resources */,
+				9308EA652555745200DCA280 /* Kotak_Mahindra_Mutual_Fund.png in Resources */,
+				9308EA5B2555745200DCA280 /* quant_Mutual_Fund.png in Resources */,
+				9308EA552555745200DCA280 /* Indiabulls_Mutual_Fund.png in Resources */,
+				9308EA602555745200DCA280 /* Mahindra_Manulife_Mutual_Fund.png in Resources */,
+				9308EA752555745200DCA280 /* back-icon.png in Resources */,
+				9308EA492555745200DCA280 /* DSP_Mutual_Fund.png in Resources */,
+				9308EA562555745200DCA280 /* L&T_Mutual_Fund.png in Resources */,
+				9308EA692555745200DCA280 /* BNP_Paribas_Mutual_Fund.jpg in Resources */,
+				9308EA612555745200DCA280 /* default.png in Resources */,
+				9308EA662555745200DCA280 /* Axis_Mutual_Fund.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		1334FF9808C623586D872BAF /* [CP] Check Pods Manifest.lock */ = {
+		F08C5880EC0C6032EF196C0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -19409,7 +19776,7 @@
 		};
 		9308905D2553DBBE00DCA280 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F614C6C29AF4DC2C4A83652B /* Pods-MyNewLib.debug.xcconfig */;
+			baseConfigurationReference = 59CE5E44A650FE9E13C4E4B8 /* Pods-MyNewLib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -19434,7 +19801,7 @@
 		};
 		9308905E2553DBBE00DCA280 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFE39A858164D8A67AA4BCB7 /* Pods-MyNewLib.release.xcconfig */;
+			baseConfigurationReference = FBA7CF48D11483A6FB81C755 /* Pods-MyNewLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

@@ -290,6 +290,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - boost-for-react-native (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/boost-for-react-native`)
   - BVLinearGradient (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native-linear-gradient`)
   - DoubleConversion (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native/Libraries/FBLazyVector`)
@@ -334,11 +335,9 @@ DEPENDENCIES:
   - RNSVG (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native-svg`)
   - Yoga (from `/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native/ReactCommon/yoga`)
 
-SPEC REPOS:
-  trunk:
-    - boost-for-react-native
-
 EXTERNAL SOURCES:
+  boost-for-react-native:
+    :podspec: "/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/boost-for-react-native"
   BVLinearGradient:
     :path: "/Users/nikhil1.saxena/Documents/JIO/MyNewLib/Resources/dependencies/react-native-linear-gradient"
   DoubleConversion:

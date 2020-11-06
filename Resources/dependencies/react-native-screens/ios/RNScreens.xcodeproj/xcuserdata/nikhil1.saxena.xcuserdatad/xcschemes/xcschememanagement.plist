@@ -7,12 +7,12 @@
 		<key>RNScreens-tvOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>48</integer>
 		</dict>
 		<key>RNScreens.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>24</integer>
 		</dict>
 	</dict>
 </dict>
