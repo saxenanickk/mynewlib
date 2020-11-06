@@ -1,15 +1,5 @@
-# require_relative('./Resources/ReactNativeDeps.rb')
-
 # Use the same RN version that the JS tools use
 react_native_version = '0.63.2'
-
-# root_project_path =
-
-# puts root_project_path.inspect
-
-# system("cd")
-
-# react_native_deps
 
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
