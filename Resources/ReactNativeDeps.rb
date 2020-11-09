@@ -1,6 +1,6 @@
 def react_native_deps
   # React Native dependencies
-  prefix = "#{File.dirname(__FILE__)}/node_modules"
+  prefix = "#{File.dirname(__FILE__)}/dependencies"
 
   # Path to the mutualFund react-native
   prefix_rn = "#{prefix}/react-native"
