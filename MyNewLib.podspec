@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   s.dependency 'React-Core/DevSupport', react_native_version
 
   podspecs = [
-    'Resources/dependencies/react-native/ReactCommon/yoga/Yoga.podspec',
-    'Resources/dependencies/react-native/third-party-podspecs/DoubleConversion.podspec',
-    'Resources/dependencies/react-native/third-party-podspecs/Folly.podspec',
-    'Resources/dependencies/react-native/third-party-podspecs/glog.podspec'
+    'node_modules/react-native/ReactCommon/yoga/Yoga.podspec',
+    'node_modules/dependencies/react-native/third-party-podspecs/DoubleConversion.podspec',
+    'node_modules/dependencies/react-native/third-party-podspecs/Folly.podspec',
+    'node_modules/dependencies/react-native/third-party-podspecs/glog.podspec'
   ]
   podspecs.each do |podspec_path|
     spec = Pod::Specification.from_file podspec_path
