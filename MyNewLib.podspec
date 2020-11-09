@@ -3,7 +3,7 @@ react_native_version = '0.63.2'
 
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.description      = 'MyNewLib Description'
   s.summary          = 'MyNewLib Summary'
   s.homepage         = 'https://github.com/saxenanickk/MyNewLib'
@@ -26,10 +26,10 @@ Pod::Spec.new do |s|
   s.dependency 'React-Core/DevSupport', react_native_version
 
   podspecs = [
-    'node_modules/react-native/ReactCommon/yoga/Yoga.podspec',
-    'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
-    'node_modules/react-native/third-party-podspecs/Folly.podspec',
-    'node_modules/react-native/third-party-podspecs/glog.podspec'
+    './node_modules/react-native/ReactCommon/yoga/Yoga.podspec',
+    './node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
+    './node_modules/react-native/third-party-podspecs/Folly.podspec',
+    './node_modules/react-native/third-party-podspecs/glog.podspec'
   ]
 
   podspecs.each do |podspec_path|
