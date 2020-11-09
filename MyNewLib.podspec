@@ -3,7 +3,7 @@ react_native_version = '0.63.2'
 
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.description      = 'MyNewLib Description'
   s.summary          = 'MyNewLib Summary'
   s.homepage         = 'https://github.com/saxenanickk/MyNewLib'
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     'node_modules/react-native/third-party-podspecs/Folly.podspec',
     'node_modules/react-native/third-party-podspecs/glog.podspec'
   ]
-  
+
   podspecs.each do |podspec_path|
     spec = Pod::Specification.from_file podspec_path
     s.dependency spec.name, "#{spec.version}"
