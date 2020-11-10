@@ -3,7 +3,7 @@ react_native_version = '0.63.2'
 
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.description      = 'MyNewLib Description'
   s.summary          = 'MyNewLib Summary'
   s.homepage         = 'https://github.com/saxenanickk/MyNewLib'
@@ -17,18 +17,13 @@ Pod::Spec.new do |s|
 
   s.dependency 'React'
   s.dependency 'React-Core'
-  s.dependency 'React-RCTAnimation'
-  s.dependency 'React-RCTImage'
   s.dependency 'ReactCommon'
-  s.dependency 'React-RCTLinking'
   s.dependency 'React-CoreModules'
-  s.dependency 'React-RCTNetwork'
-  s.dependency 'React-RCTText'
-  s.dependency 'Yoga'
-  s.dependency 'DoubleConversion'
-  s.dependency 'Folly'
-  s.dependency 'glog'
-  
+  s.dependency 'FBLazyVector'
+  s.dependency 'FBReactNativeSpec'
+  s.dependency 'RCTRequired'
+  s.dependency 'RCTTypeSafety'
+
   # React is split into a set of subspecs, these are the essentials
   # s.dependency 'React-Core', react_native_version
   # s.dependency 'React-RCTAnimation', react_native_version

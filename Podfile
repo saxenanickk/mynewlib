@@ -19,5 +19,4 @@ target 'MyNewLib' do
   pod 'FBReactNativeSpec'
   pod 'RCTRequired'
   pod 'RCTTypeSafety'
-  pod 'Yoga'
 end
