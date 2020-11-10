@@ -19,4 +19,5 @@ target 'MyNewLib' do
   pod 'FBReactNativeSpec'
   pod 'RCTRequired'
   pod 'RCTTypeSafety'
+  pod 'react-native-cookies'
 end
