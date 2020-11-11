@@ -1,9 +1,6 @@
-# Use the same RN version that the JS tools use
-react_native_version = '0.63.2'
-
 Pod::Spec.new do |s|
   s.name             = 'MyNewLib'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.description      = 'MyNewLib Description'
   s.summary          = 'MyNewLib Summary'
   s.homepage         = 'https://github.com/saxenanickk/MyNewLib'
@@ -12,7 +9,7 @@ Pod::Spec.new do |s|
   s.source           = { git: 'https://github.com/saxenanickk/mynewlib.git', tag: s.version.to_s }
 
   s.source_files   = 'MyNewLib/**/*.{h,m}'
-  s.resources      = 'Resources/**/*.{jsbundle,rb,jpg,png}'
+  s.resources      = 'Resources/**/*.{jsbundle,jpg,png}'
   s.platform       = :ios, '10.0'
 
   s.static_framework = true
